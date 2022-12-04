@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600;800&display=swap');
+
+:root{
+    --roboslab:'Roboto Slab', serif;
+    --zendots:'Zen Dots', cursive;
+    --primary-color: #14b8a6 ;
+    --secondary-color: #ccfbf1;
+    --dark-blue:#050088;
+}
+body{
+    text-align: center;
+    font-family: var(--roboslab);
+    background-color: var(--secondary-color);
+    margin: 0;
+    padding: 1rem;
+}
+.heading{
+    font-family: var(--zendots);
+}
+h2.heading{
+    margin-bottom: 0.3rem;
+    font-family: var(--zendots);
+    font-size: 1.5rem;
+}
+h1.heading{
+    margin: 0rem 0rem 2rem 0rem;
+    font-size: 2.2rem;
+}
+p{
+    font-family: var(--zendots);
+    margin-bottom: 4rem;
+}
+
+
+label{
+    display: block;
+    text-align: center;
+    padding-bottom: 1rem;
+    font-size: 1.2rem;
+}
+#output-box{
+    font-family: var(--zendots);
+    margin-top: 2rem;
+    font-size: 1.5rem;
+}
+div.output{
+    background-color: #14b8a6;
+    display: none;
+    padding: 1rem;
+}
+button{
+    margin: 2rem 0 2rem 0;
+    font-family: var(--roboslab);
+    font-size: 1.5rem;
+    background-color: black;
+    color: white;
+    border-radius: 0.5rem;
+}
+input{
+    font-size: 0.9rem;
+}
+
+footer{
+    text-align: center;
+    color: var(--dark-blue);
+    bottom: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.contact-info{
+    margin: auto;
+    width: 300px;
+    border-radius: 1rem;
+}
+.credit{
+    font-size: medium;
+    padding-top: 1rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.non-bullet{
+    list-style: none;
+    display: inline;
+    margin: 1rem;
+    color: var(--dark-blue);
+    padding-bottom: 2rem;
+    font-size: 2rem;
+}
+
+a:-webkit-any-link {
+    color: inherit;
+    cursor: pointer;
+    text-decoration: none;
+}
