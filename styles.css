@@ -13,7 +13,7 @@ body{
     font-family: var(--roboslab);
     background-color: var(--secondary-color);
     margin: 0;
-    padding: 1rem;
+    padding: 1rem 1rem 0rem 1rem;
 }
 .heading{
     font-family: var(--zendots);
@@ -29,7 +29,7 @@ h1.heading{
 }
 p{
     font-family: var(--zendots);
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
 }
 
 
@@ -41,7 +41,7 @@ label{
 }
 #output-box{
     font-family: var(--zendots);
-    margin-top: 2rem;
+    margin-top: 1.5rem;
     font-size: 1.5rem;
 }
 div.output{
@@ -50,7 +50,7 @@ div.output{
     padding: 1rem;
 }
 button{
-    margin: 2rem 0 2rem 0;
+    margin: 1rem 0 1rem 0;
     font-family: var(--roboslab);
     font-size: 1.5rem;
     background-color: black;
@@ -86,7 +86,7 @@ footer{
     display: inline;
     margin: 1rem;
     color: var(--dark-blue);
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
     font-size: 2rem;
 }
 
