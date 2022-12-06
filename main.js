@@ -21,6 +21,9 @@ function calculateProfitOrLoss(initialPrice , qnt, currentPrice){
         result.style.display="block"
         result.innerText =("your loss is " + loss + " of " + lossPercent + "%")
     } else {
+        result.style.backgroundColor="black";
+        result.style.color="white"
+        result.style.display="block"
         result.innerText = "NO PAIN NO GAIN and NO GAIN NO PAIN ;)";
     }
 }
